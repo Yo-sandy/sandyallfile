@@ -1,0 +1,19 @@
+ 
+p{
+    font-size: 10vh;
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-align: center;
+}
+.material-icons{
+    margin: 64px;
+    color: chartreuse;
+    font-size: 100px!important;
+}
+.my-icon2{
+    margin: 64px;
+    color: #0026ff;
+    font-size: 100px!important;
+}

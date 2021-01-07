@@ -1,0 +1,36 @@
+.form-group{
+    padding: 10px;
+}
+.form-group label{
+    display: block;
+    color: #777777;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.form-group .from-cntrol{
+    border-radius: 28px;
+    border: 2px solid #777777;
+    outline: none;
+    padding: 3px 20px;
+}
+.form-group .from-cntrol :focus{
+    border: 2px solid black;
+}
+.form-group .from-cntrol::placeholder{
+    font-size: 10px;
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid yellow;
+    padding: 8px 30px;
+    border-radius: 25px;
+}
+.btn-submit{
+    border: 1px solid green;
+    background-color: greenyellow;
+    color: white;
+}
+.btn-submit:hover{
+    background-color: white;
+    color: tomato;
+}

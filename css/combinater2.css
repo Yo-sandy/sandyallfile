@@ -1,0 +1,6 @@
+div ~ p{
+    color: green;
+}
+#box1{
+    color: gold;
+}

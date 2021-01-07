@@ -1,0 +1,1 @@
+console.log(document.querySelector("h1").childNodes[0].nodeValue);

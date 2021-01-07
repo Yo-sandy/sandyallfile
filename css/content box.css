@@ -1,0 +1,43 @@
+.box{
+    background-color: crimson;
+    color: rgb(71, 12, 233);
+    font-size: 25px;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 1.9;
+    margin: 10%;
+    padding: 10%;
+    text-align: center;
+    
+}
+.box1{
+    background-color: darkgoldenrod;
+    color: rgb(12, 233, 159);
+    font-size: 25px;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 1.9;
+    padding: 10%;
+    text-align: center;
+}
+.box2{
+    background-color: darkgreen;
+    color: rgb(233, 12, 215);
+    font-size: 25px;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 1.9;
+    padding: 10%;
+    text-align: center;
+}
+.box3{
+    background-color: blueviolet;
+    color: rgb(71, 12, 233);
+    font-size: 25px;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 1.9;
+    padding: 10%;
+    text-align: center;
+}
+ 

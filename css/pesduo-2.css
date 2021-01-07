@@ -1,0 +1,12 @@
+p::after{
+    content:"yadav";
+    color: rgb(6, 10, 245);
+}
+p::before{
+    content:"My";
+    color: rgb(255, 0, 0);
+}
+p::selection{
+    background-color: springgreen;
+    color: white;
+}

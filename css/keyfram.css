@@ -1,0 +1,64 @@
+body{  
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0;
+    padding: 0;
+    }
+
+@keyframes box2{
+    0%   {
+        transform: rotate(0deg);
+        position: absolute; 
+        left:0vw; 
+        top:0vh;
+    }
+    12%{
+        transform: rotate(45deg);
+    }
+    25%  {
+        transform: rotate(90deg);
+        position: absolute;
+        left:96vw; 
+        top:0vh;
+    }
+    35%{
+        transform: rotate(155deg);
+    }
+    50%  {
+        transform: rotate(180deg);
+        position: absolute;
+        left:0vw;
+        top:90vh;
+    }
+    65%{
+        transform: rotate(220deg);
+    }
+    75%  {
+        transform: rotate(270deg);
+        position: absolute;
+        left:90vw; 
+        top:0vh;
+    }
+    85%{
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        position: absolute;
+        left:0vw;
+        top:0vh;
+        }
+}
+.box{
+    width: 60px;
+    background-color: #144430;
+    height: 60px;
+    border: 5px solid rgb(71, 9, 9);
+    border-radius: 25%;
+    animation-name: box2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;   
+  
+    } 

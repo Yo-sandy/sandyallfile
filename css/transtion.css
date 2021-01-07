@@ -1,0 +1,14 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(8, 4, 243);
+    margin-top: 315px;
+    margin-bottom: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 2s;
+}
+.translate:hover{
+    background-color: chartreuse;
+    transform: scale(1.1, 1.1);
+}

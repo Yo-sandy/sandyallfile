@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ @media all and (max-width:500px){
+       .container{
+           flex-direction: column;
+       }
+       .singal-item{
+           padding: 0!important;
+        width: 100vw!important;
+        height: auto;
+        
+    }
+       .singal-item .item-image{
+        width: 100vw!important;
+        height: auto;
+    }
+    .sidebar-item-header .sidebar-item-image{
+        width: 100vw!important;
+        height: auto;
+    }
+       
+
+ }
+
+ /* flexbox css */
+
+ .container{
+     display: flex;
+ }
+
+ .justify-content-center{
+     justify-content: center;
+ }
+ .box{
+     
+     width: 100vw!important;
+     height: auto;
+ }
+
+/* header css */
+header{
+    background-color: orange;
+    height: 80px;
+}
+header h2{
+    margin: 0;
+    line-height: 80px;
+    font-family:Asset;
+    text-align: center;
+    color: #043941;
+}
+/* end header css */
+
+/* navigation section */
+nav{
+    list-style-type: none;
+    background-color: mediumturquoise;
+    text-align: center;
+    height: auto;
+}
+nav a{
+    
+    line-height: 56px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgba(228, 10, 10, 0.616);
+    color: rgb(47, 47, 235);
+}
+/* end navigation section */
+
+/* section for main content and sidebar */
+section{
+    width: 100vw;
+    display: flex;
+}
+section main{
+    flex-grow: 8;
+    background-color: burlywood;
+}
+section aside{
+    flex-grow:2;
+    
+    
+}
+/* end section for main content and sidebar */
+
+/* singal-item css */
+.singal-item{
+    width: 70vw;
+    padding: 10px;
+    display: flex;
+}
+.singal-item .item-image{
+    width: 11em;
+    height: auto;
+}
+.singal-item .item-header{
+    margin-left:1em;
+    padding: 10px;
+}
+.singal-item .item-heading{
+    font-size: 25px;
+    margin: 5px 0;
+}
+.singal-item .item-details{
+    margin: 5px 0;
+}
+.singal-item .read{
+    text-decoration: none;
+}
+/* end singal-item css */
+
+/* sidebar item css */
+.sidebar-item{
+    background-color: dodgerblue;
+    padding: 10px;
+}
+.sidebar-item-header .sidebar-item-heading{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sidebar-item-header .sidebar-item-image{
+    width: 20vw;
+}
+.sidebar-item-header .sidebar-item-title{
+    text-align: center!important;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: firebrick;
+}
+.sidebar-item-header .sidebar-item-bio{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sidebar-item-header .about-me{
+    width: 20vw;
+}
+
+/* end sidebar item css */
+
+/* footer */
+footer{
+    clear: both;
+    background-color: rgb(149, 226, 250);
+    text-align: center;
+}
+
+/* end footer */

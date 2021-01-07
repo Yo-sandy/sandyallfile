@@ -1,0 +1,19 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(151, 230, 48);
+    margin: 10px;
+}
+.translate{
+    transform: translate(200px);
+}
+.rotate:hover{
+    transform: rotate(50deg);
+    margin-bottom: 56px;
+}
+.scale {
+    transform: scale(.75 )
+}
+.skew:hover{
+    transform: skew(30deg);
+}

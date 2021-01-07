@@ -1,0 +1,26 @@
+h1 {
+    background-color: purple;
+}
+
+h2 {
+    background-color: yellow;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    background-color: blue;
+}
+
+p {
+    background-color: #d8eb34;
+}
+
+th {
+    background-color: #6e25b8;
+}
+
+td {
+    background-color: #1877c9;
+}

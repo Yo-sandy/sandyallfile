@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-image: url("../css/background-image.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.navbar li:hover{
+    background-color: springgreen;
+    color: white;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    top: 27.33px;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+.dropdown-content li{
+    color: white;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}

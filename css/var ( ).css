@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary:red;
+    --mycolor:yellow;
+    --mypadding:15px;
+}
+
+/* header css */
+header{
+    background-color: var(--primary);
+    height: 80px;
+}
+header h2{
+    margin: 0;
+    line-height: 80px;
+    font-family:Asset;
+    text-align: center;
+    color: #043941;
+}
+/* end header css */
+
+/* navigation section */
+nav{
+    background-color: mediumturquoise;
+    text-align: center;
+    height: 56px;
+}
+nav a{
+    line-height: 56px;
+    font-size: xx-large;
+    color: var(--primary);
+    text-decoration: none;
+    padding: var(--mypadding);
+}
+nav a:hover{
+    background-color: rgba(236, 101, 101, 0.616);
+    color: blue;
+}
+/* end navigation section */
+
+/* section for main content and sidebar */
+section{
+    width: 100vw;
+}
+section main{
+    width: 80vw;
+    float: left;
+    background-color: burlywood;
+}
+section aside{
+    width: 20vw;
+    float: right;
+    background-color: #404040;
+}
+/* end section for main content and sidebar */
+
+/* singal-item css */
+.singal-item{
+    width: 70vw;
+    padding: 10px;
+    margin-left: 40px;
+    display: flex;
+}
+.singal-item .item-image{
+    width: 11em;
+    height: auto;
+}
+.singal-item .item-header{
+    margin-left:1em;
+}
+.singal-item .item-heading{
+    font-size: 25px;
+    margin: 5px 0;
+    color: var(--mycolor);
+}
+.singal-item .item-details{
+    margin: 5px 0;
+}
+.singal-item .read{
+    text-decoration: none;
+}
+/* end singal-item css */
+
+/* sidebar item css */
+.sidebar-item{
+    background-color: dodgerblue;
+}
+.sidebar-item-header .sidebar-item-heading{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sidebar-item-header .sidebar-item-image{
+    width: 20vw;
+}
+.sidebar-item-header .sidebar-item-title{
+    text-align: center!important;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--mycolor);
+}
+.sidebar-item-header .sidebar-item-bio{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sidebar-item-header .about-me{
+    width: 18vw;
+}
+
+/* end sidebar item css */
+
+/* footer */
+footer{
+    clear: both;
+    background-color: rgb(149, 226, 250);
+    text-align: center;
+}
+/* end footer */

@@ -1,0 +1,15 @@
+.btn{
+    background-color: transparent;
+    border: 1px solid purple;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+.btn-submit{
+    background-color: yellowgreen;
+    border: 1px solid rgb(40, 43, 241);
+    color: white;
+}
+.btn-submit:hover{
+    background-color: white;
+    color: tomato;
+}

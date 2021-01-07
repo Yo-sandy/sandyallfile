@@ -1,0 +1,28 @@
+.box1{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: purple;
+}
+.box2{
+    position: absolute;   
+    bottom: 0;
+    right: 0;
+    border-radius: 40%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.sticky{
+    background-image:url("../sandy 2/abc.jpg");
+    text-align: center;
+    color: white;
+    position: sticky;
+    top:0;
+}
+.box3{
+    background-color: yellowgreen;
+    max-width: 600px;
+    margin-left: 35%;
+    color: white;
+}

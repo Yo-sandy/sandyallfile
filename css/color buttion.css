@@ -1,0 +1,37 @@
+a:link{
+    color: red;
+}
+a:link{
+    color: darkred;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: firebrick;
+}
+.my-button:link{
+    border: 400px solid;
+    background-color: #802922;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 70px;
+}
+.my-button:hover{
+    background-color: rgb(255, 30, 0);
+}
+.my-button:link{
+    background-color: #184de0;
+}
+.my-rounded:link{
+    background-color: #802922;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius:70px;
+}
+.my-rounded:hover{
+    background-color: rgb(255, 72, 0);
+}
+

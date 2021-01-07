@@ -1,0 +1,20 @@
+div{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    background-color:  green;
+}
+@media all and (max-width:800px){
+    div{
+        background-color: purple;
+        width: 400px;
+        height: 400px;
+    }
+}
+@media all and (max-width:400px){
+    div{
+        background-color: rgb(28, 219, 76);
+        width: 100px;
+        height: 100px;
+    }
+}

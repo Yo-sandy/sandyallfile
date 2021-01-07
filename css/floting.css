@@ -1,0 +1,21 @@
+.btn-1, .btn-2{
+    background-color: rgba(255, 102, 0, 0.973);
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn-1:hover, .btn-2:hover{
+    background-color: slategray;
+}
+div{
+    margin-top: 25px;
+}
+.box-1{
+    
+    clear: none;
+    
+}
+.box-2{
+    float: right;
+}

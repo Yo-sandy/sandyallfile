@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ div{
+     width: 400px;
+     height: 400px;
+     background-color: red;
+     border: 2px solid green;
+     box-sizing: border-box;
+ }

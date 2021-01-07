@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 99vh;
+    column-count: 4;
+    column-gap: 20px;
+    column-rule: red dotted;
+}
+div h2{
+    column-span: all;
+}

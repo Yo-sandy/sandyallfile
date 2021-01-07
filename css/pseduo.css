@@ -1,0 +1,15 @@
+#input-1:focus{
+    background-color: gray;
+}
+#input-2:focus{
+    background-color: gray;
+}
+#input-3:focus{
+    background-color: gray;
+}
+#input-4:focus{
+    background-color: gray;
+}
+ input:hover{
+     background-color: red;
+ }

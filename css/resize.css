@@ -1,0 +1,12 @@
+ 
+.box{
+    margin-top: 30px;
+    margin-left: 22px;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    border: 2px solid;
+    outline: 5px solid red;
+    outline-offset: 25px;
+    resize: both;
+}
