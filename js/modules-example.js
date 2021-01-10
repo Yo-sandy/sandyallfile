@@ -28,3 +28,6 @@ function show (x, y){
 show(10, 10);
 
 show(10,3)
+
+
+show(10,5)
