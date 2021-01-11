@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> carousel templete</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Carousel</a>
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                    id="navbarCollapse"
+                    class="collapse navbar-collapse"
+                    >
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                <input
+                        type="search"
+                        class="form-control me-2"
+                        placeholder="Search"
+                >
+                <button
+                        type="submit"
+                        class="btn btn-outline-danger"
+                >Submit
+                </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active position-relative" data-bs-interval="10000">
+                <img src="../image/ashwagandha.jpg" class="vw-100 vh-100">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50">
+                    <h2 class="text-white">First slide label</h2>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <div class="carousel-item  position-relative" data-bs-interval="2000">
+                <img src="../image/background-image.png" class="vw-100 vh-100">
+                <div class="carousel-caption d-none d-md-block position-absolute ">
+                    <h1 class="text-white">Second slide label</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img src="../image/Minnesota%20Vikings.png" class="vw-100 vh-100">
+                <div class="carousel-caption d-none d-md-block position-absolute bottom-0 end-0">
+                    <h2 class="text-white">Third slide label</h2>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</main>
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>
