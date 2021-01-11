@@ -49,17 +49,44 @@
 //
 // show(60)
 
- function  show (x){
-    let result = 0;
-    let  y = 100;
-    if (x < y){
-        result = false
-    }else  {
-        result = true
-    }
-     console.log(result)
- }
 
- show(101)
 
-show(99)
+//  function  show (x){
+//     let result = 0;
+//     let  y = 100;
+//     if (x < y){
+//         result = false
+//     }else  {
+//         result = true
+//     }
+//      console.log(result)
+//  }
+//
+//  show(101)
+//
+// show(99)
+
+
+
+//  var amt = 199
+//
+// if (amt > 100 && amt <= 200){
+//     console.log(true)
+//
+// }else if(amt > 200){
+//     console.log(false)
+// }else if (amt < 100){
+//     console.log(false)
+// }
+
+function checkMyAlgo(amt){
+    console.log( amt % 10);    // this console.log value check only
+    let isDividable = amt % 10 === 0;
+    let inRange = amt > 100 && amt <= 200;
+
+    console.log(isDividable || inRange)
+}
+
+
+checkMyAlgo(100);
+
